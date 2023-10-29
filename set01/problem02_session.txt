@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231026160621
+Username: VAIBHAVPC\vaibh
+RunAs User: VAIBHAVPC\vaibh
+Configuration Name: 
+Machine: VAIBHAVPC (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\vaibh\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 8592
+PSVersion: 5.1.22621.2428
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
+BuildVersion: 10.0.22621.2428
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set01\problem02_session.txt
+PS C:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar> gcc -g "c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set01\problem02.c" -o "c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set01\problem02.exe" 2>&1
+
+PS C:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar> c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set01\problem02.exe
+the sum of 20 and 30 is 50
+PS C:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar> git add .
+
+PS C:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar> git commit -m "committed 10/26/2023, 4:06:47 PM"
+
+PS C:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar> git push
+
+PS C:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231026160739
+**********************
