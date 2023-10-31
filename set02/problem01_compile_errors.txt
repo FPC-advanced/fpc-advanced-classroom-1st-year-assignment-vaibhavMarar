@@ -1,0 +1,18 @@
+Compilation started at 10/31/2023, 6:00:47 AM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c: In function 'input':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:10:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the length of the base: ");
+     ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:10:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:10:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:11:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%f",base);
+     ^~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:11:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:11:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c: In function 'output':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:20:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("\nThe Area of the Triangle is %f\n",area);
+     ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem01.c:20:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 10/31/2023, 6:00:48 AM
