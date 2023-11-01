@@ -1,0 +1,27 @@
+Compilation started at 11/1/2023, 7:58:42 AM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c: In function 'input_number':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:9:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the number: ");
+     ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:9:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:9:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:10:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%d",&num);
+     ^~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:10:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:10:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c: In function 'is_composite':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:15:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("Number should be greater than 1!");
+         ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c: In function 'output':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:28:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("\n%d is not a prime number.", n);
+         ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:28:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:30:13: warning: incompatible implicit declaration of built-in function 'printf'
+             printf("\n%d is a prime number.", n);
+             ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:30:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/1/2023, 7:58:43 AM
