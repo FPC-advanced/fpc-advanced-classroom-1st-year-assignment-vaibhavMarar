@@ -25,3 +25,5 @@ c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
              ^~~~~~
 c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem03.c:30:13: note: include '<stdio.h>' or provide a declaration of 'printf'
 Compilation finished at 11/1/2023, 7:58:43 AM
+Compilation started at 11/1/2023, 7:59:03 AM
+Compilation finished at 11/1/2023, 7:59:04 AM
