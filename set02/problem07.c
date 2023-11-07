@@ -13,7 +13,7 @@ Triangle input_triangle(){
     tri-> area= 0.5 *tri->base *tri->height;
  }
  void output(Triangle tri){
-    printf("the area of triangle is %f",tri);
+    printf("the area of triangle is %.2lf",tri);
  }
 
  int main(){
