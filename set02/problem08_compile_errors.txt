@@ -1,0 +1,51 @@
+Compilation started at 11/7/2023, 6:46:09 AM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c: In function 'main':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:73:23: warning: passing argument 1 of 'input_n_triangles' makes integer from pointer without a cast [-Wint-conversion]
+     input_n_triangles(t,n);
+                       ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:38:6: note: expected 'int' but argument is of type 'Triangle * {aka struct <anonymous> *}'
+ void input_n_triangles(int n, Triangle t[n]) {
+      ^~~~~~~~~~~~~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:73:25: warning: passing argument 2 of 'input_n_triangles' makes pointer from integer without a cast [-Wint-conversion]
+     input_n_triangles(t,n);
+                         ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:38:6: note: expected 'Triangle * {aka struct <anonymous> *}' but argument is of type 'int'
+ void input_n_triangles(int n, Triangle t[n]) {
+      ^~~~~~~~~~~~~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:74:18: warning: passing argument 1 of 'find_n_areas' makes integer from pointer without a cast [-Wint-conversion]
+     find_n_areas(t,n);
+                  ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:49:6: note: expected 'int' but argument is of type 'Triangle * {aka struct <anonymous> *}'
+ void find_n_areas(int n, Triangle t[n]) {
+      ^~~~~~~~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:74:20: warning: passing argument 2 of 'find_n_areas' makes pointer from integer without a cast [-Wint-conversion]
+     find_n_areas(t,n);
+                    ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:49:6: note: expected 'Triangle * {aka struct <anonymous> *}' but argument is of type 'int'
+ void find_n_areas(int n, Triangle t[n]) {
+      ^~~~~~~~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:75:48: warning: passing argument 1 of 'find_smallest_triangle' makes integer from pointer without a cast [-Wint-conversion]
+     Triangle smallest = find_smallest_triangle(t,n);
+                                                ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:55:10: note: expected 'int' but argument is of type 'Triangle * {aka struct <anonymous> *}'
+ Triangle find_smallest_triangle(int n, Triangle t[n]) {
+          ^~~~~~~~~~~~~~~~~~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:75:50: warning: passing argument 2 of 'find_smallest_triangle' makes pointer from integer without a cast [-Wint-conversion]
+     Triangle smallest = find_smallest_triangle(t,n);
+                                                  ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:55:10: note: expected 'Triangle * {aka struct <anonymous> *}' but argument is of type 'int'
+ Triangle find_smallest_triangle(int n, Triangle t[n]) {
+          ^~~~~~~~~~~~~~~~~~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:76:12: warning: passing argument 1 of 'output' makes integer from pointer without a cast [-Wint-conversion]
+     output(t,n,smallest);
+            ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:65:6: note: expected 'int' but argument is of type 'Triangle * {aka struct <anonymous> *}'
+ void output(int n, Triangle t[n], Triangle smallest) {
+      ^~~~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:76:14: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+     output(t,n,smallest);
+              ^
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set02\problem08.c:65:6: note: expected 'Triangle * {aka struct <anonymous> *}' but argument is of type 'int'
+ void output(int n, Triangle t[n], Triangle smallest) {
+      ^~~~~~
+Compilation finished at 11/7/2023, 6:46:10 AM
