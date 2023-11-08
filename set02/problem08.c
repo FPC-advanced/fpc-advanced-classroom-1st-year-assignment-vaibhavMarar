@@ -15,7 +15,7 @@ void find_n_areas(int n, Triangle t[n]);
 Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
 */
-#include<stdio.h>
+#include <stdio.h>
 
 typedef struct{
     float base, height, area;
@@ -45,7 +45,7 @@ void input_n_triangles(int n, Triangle t[n]) {
 void find_area(Triangle *t) {
     t->area = 0.5 * t->base * t->height;
 }
-   
+
 void find_n_areas(int n, Triangle t[n]) {
     for(int i=0; i<n; i++) {
         find_area(&t[i]);
