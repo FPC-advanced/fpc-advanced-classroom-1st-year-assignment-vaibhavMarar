@@ -26,7 +26,7 @@ int is_composite(int n){
 
 void output(int n, int result){
     if(result==1){
-        printf("\n%d is .a composite number.", n);
+        printf("\n%d is a composite number.", n);
         }else{
             printf("\n%d is a prime number.", n);
             }
