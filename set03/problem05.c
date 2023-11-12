@@ -19,16 +19,15 @@ int input_array_size() {
 
 void init_array(int n, int a[n]) {
     for (int i = 0; i < n; i++) {
-        a[i] = 1; // Initialize all elements to 1 (assumed prime)
+        a[i] = 1; 
     }
-    a[0] = a[1] = 0; // 0 and 1 are not prime
+    a[0] = a[1] = 0; 
 }
-
 void eratosthenes_sieve(int n, int a[n]) {
     for (int i = 2; i * i <= n; i++) {
         if (a[i] == 1) {
             for (int j = i * i; j <= n; j += i) {
-                a[j] = 0; // Mark multiples of p as non-prime
+                a[j] = 0; 
             }
         }
     }
