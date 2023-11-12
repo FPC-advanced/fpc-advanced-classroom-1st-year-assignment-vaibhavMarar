@@ -1,0 +1,34 @@
+Compilation started at 11/12/2023, 8:45:52 PM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem05.c: In function 'main':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem05.c:47:5: warning: implicit declaration of function 'eratosthenes_sieve' [-Wimplicit-function-declaration]
+     eratosthenes_sieve(n, a);
+     ^~~~~~~~~~~~~~~~~~
+C:\Users\vaibh\AppData\Local\Temp\ccMXHPel.o: In function `main':
+c:/Users/vaibh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-vaibhavMarar/set03/problem05.c:47: undefined reference to `eratosthenes_sieve'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/12/2023, 8:45:52 PM
+Compilation started at 11/12/2023, 8:46:45 PM
+Compilation finished at 11/12/2023, 8:46:46 PM
+Compilation started at 11/12/2023, 8:48:11 PM
+Compilation finished at 11/12/2023, 8:48:12 PM
+Compilation started at 11/12/2023, 8:48:55 PM
+Compilation finished at 11/12/2023, 8:48:56 PM
+Compilation started at 11/12/2023, 8:49:48 PM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem05.c: In function 'main':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem05.c:47:5: warning: implicit declaration of function 'erotosthenes_sieve' [-Wimplicit-function-declaration]
+     erotosthenes_sieve(n, a);
+     ^~~~~~~~~~~~~~~~~~
+C:\Users\vaibh\AppData\Local\Temp\ccOecGa6.o: In function `main':
+c:/Users/vaibh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-vaibhavMarar/set03/problem05.c:47: undefined reference to `erotosthenes_sieve'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/12/2023, 8:49:49 PM
+Compilation started at 11/12/2023, 8:50:09 PM
+Compilation finished at 11/12/2023, 8:50:09 PM
+Compilation started at 11/12/2023, 8:50:53 PM
+Compilation finished at 11/12/2023, 8:50:54 PM
+Compilation started at 11/12/2023, 8:51:40 PM
+Compilation finished at 11/12/2023, 8:51:40 PM
+Compilation started at 11/12/2023, 8:52:25 PM
+Compilation finished at 11/12/2023, 8:52:25 PM
+Compilation started at 11/12/2023, 8:53:47 PM
+Compilation finished at 11/12/2023, 8:53:48 PM
