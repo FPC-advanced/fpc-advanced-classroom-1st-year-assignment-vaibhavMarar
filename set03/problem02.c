@@ -22,7 +22,7 @@ int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3){
 }
    void output(float x1, float y1, float x2, float y2,float x3, float y3, int result){
       if(result !=0){
-        printf("the given three sets of point can make a triangle ");
+        printf("the given three sets of point can make a triangle as they donot lie on same plane  ");
       }else{
         printf("The given three sets of point cannot make a triangle as they lie on same plane ");
       
