@@ -32,9 +32,9 @@ typedef struct line {
 
 Point input_point(){
     Point p;
-    printf("Enter coordinates for point 1: ");
+    printf("Enter x-coordinate: ");
     scanf("%f",&p.x);
-    printf("Enter coordinates for point 2: ");
+    printf("Enter y-coordinates: ");
     scanf("%f",&p.y);
     return p;
 }
