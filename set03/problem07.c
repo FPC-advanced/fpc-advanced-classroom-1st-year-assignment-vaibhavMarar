@@ -20,6 +20,7 @@ formulae : root(x2-x1)*(x2-x1) +(y2-y1)*(y2-y1)
 */
 
 #include<stdio.h>
+#include<math.h>
 typedef struct point {
     float x, y;
 } Point;
