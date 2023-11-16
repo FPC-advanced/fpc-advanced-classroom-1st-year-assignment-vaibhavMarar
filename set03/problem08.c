@@ -22,6 +22,7 @@ void find_perimeter(Polygon* p);
 void output(Polygon p);
 */
 #include <stdio.h>
+#include<math.h>
 typedef struct point {
     float x,y;
 } Point;
