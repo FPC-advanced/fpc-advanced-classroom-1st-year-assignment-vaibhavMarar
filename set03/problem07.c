@@ -64,5 +64,4 @@ int main(){
     find_length(&line);
     output(line);
     return 0;
-
 }
