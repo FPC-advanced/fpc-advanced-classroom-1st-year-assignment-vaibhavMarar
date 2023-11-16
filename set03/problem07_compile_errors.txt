@@ -1,0 +1,8 @@
+Compilation started at 11/16/2023, 9:41:10 PM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem07.c: In function 'find_length':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem07.c:54:18: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     l->distance= sqrt(dx*dx + dy*dy);
+                  ^~~~
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem07.c:54:18: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set03\problem07.c:54:18: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 9:41:10 PM
