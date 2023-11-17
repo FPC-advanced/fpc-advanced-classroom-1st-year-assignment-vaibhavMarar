@@ -28,7 +28,7 @@ void output(int num1, int den1, int num2, int den2, int res_num, int res_den){
     if(res_num == res_den){
         printf("\nThe result of %d/%d and %d/%d is 1",num1,den1,num2,den2);
     }else{
-        printf("\nThe result is %d/%d\n",res_num,res_den);
+        printf("\nThe result of %d/%d and %d/%d is %d/%d\n",num1,den1,num2,den2,res_num,res_den);
     }
 
 }
