@@ -12,16 +12,16 @@ void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
 void input(int *num1, int *den1, int *num2, int *den2){
     printf("enter the numerator value for first fraction: ");
     scanf("%d",num1);
-    printf("enter the denominator value for fsecond fraction: ");
+    printf("enter the denominator value for first fraction: ");
     scanf("%d",den1);
-    printf("enter the numerator value for first fraction: ");
+    printf("enter the numerator value for second fraction: ");
     scanf("%d",num2);
     printf("enter the denominator value for second fraction: ");
     scanf("%d",den2);
 }
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den){
     *res_den= den1* den2;
-    *res_num= (num1 *den2) + (num2*den2);
+    *res_num= (num1 *den2) + (num2*den1);
 }
 
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den){
