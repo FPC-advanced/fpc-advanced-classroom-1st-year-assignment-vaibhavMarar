@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/vaibh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-vaibhavMarar/set03",
-      "program": "c:/Users/vaibh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-vaibhavMarar/set03/build/Debug/outDebug",
+      "cwd": "c:/Users/vaibh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-vaibhavMarar/set04",
+      "program": "c:/Users/vaibh/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-vaibhavMarar/set04/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
