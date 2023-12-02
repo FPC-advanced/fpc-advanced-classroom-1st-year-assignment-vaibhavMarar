@@ -1,0 +1,10 @@
+Compilation started at 12/2/2023, 4:59:42 PM
+Compilation finished at 12/2/2023, 4:59:42 PM
+Compilation started at 12/2/2023, 5:00:33 PM
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set04\problem02.c: In function 'smallest_frac':
+c:\Users\vaibh\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-vaibhavMarar\set04\problem02.c:20:77: error: expected expression before '<' token
+     if (compare_fraction(frac1,frac2) < 0 && compare_fraction(frac1, frac3))< 0{
+                                                                             ^
+Compilation finished at 12/2/2023, 5:00:33 PM
+Compilation started at 12/2/2023, 5:00:48 PM
+Compilation finished at 12/2/2023, 5:00:49 PM
