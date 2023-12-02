@@ -7,7 +7,8 @@ void input_string(char *a);
 int count_words(char *string);
 void output(char *string, int no_words);
 */
-#include<stdint.h>
+#include<stdio.h>
+#include <string.h>
 void input_string(char *a) {
     printf("Enter a string: ");
     fgets(a, 100, stdin); // Reading up to 100 characters including spaces
