@@ -11,15 +11,7 @@ Complex input_complex();
 Complex add_complex(Complex a, Complex b);
 void output(Complex a, Complex b, Complex sum);
 
-int main()
-{
-    Complex a,b,sum;
-    a=input_complex();
-    b=input_complex();
-    sum=add_complex(a,b);
-    output(a,b,sum);
-    return 0;
-}
+
 
 Complex input_complex()
 {
@@ -41,7 +33,16 @@ Complex add_complex(Complex a,Complex b)
 
 void output(Complex a, Complex b, Complex sum)
 {
-    printf("The sum of the real part of the two numbers is %.2f",sum.real);
-    printf("The sum of the imaginary part of the two numbers is %.2f",sum.imaginary);
+    printf("the sum of both complex no. is %.2lf + %.2lf",sum.real,sum.imaginary );
 
+}
+
+int main()
+{
+    Complex a,b,sum;
+    a=input_complex();
+    b=input_complex();
+    sum=add_complex(a,b);
+    output(a,b,sum);
+    return 0;
 }
