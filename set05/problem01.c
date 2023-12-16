@@ -38,7 +38,7 @@ int main(){
     scanf("%d",&pntb.y);
 
     float distance=calculate_dist(pnta,pntb);
-    printf("\nThe distance between (%.2lf,%.2lf) and (%.2lf,%.2lf)is %.2lf",distance);
+    printf("\nThe distance between (%d,%d) and (%d,%d)is %d",distance);
     
     return 0;
 }
