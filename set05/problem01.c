@@ -15,13 +15,14 @@ struct _point {
   float x;
   float y;
 };
+typedef struct _point pint;
 
-float calculateDistance(struct _point p1, struct _point p2) {
+float calculateDistance(pint p1,  pint p2) {
     return sqrt(pow((p2.x - p1.x), 2) + pow((p2.y - p1.y), 2));
 }
 
 int main() {
-    struct _point point1, point2;
+    pint point1, point2;
 
     // Input coordinates for the first point
     printf("Enter x and y coordinates for the first point:\n");
