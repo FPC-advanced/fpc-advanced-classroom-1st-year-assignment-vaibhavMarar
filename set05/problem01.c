@@ -11,34 +11,35 @@ struct _point {
 */
 #include<stdio.h>
 #include<math.h>
-struct _point
-{
-    float x;
-    float y;
+struct _point {
+  float x;
+  float y;
 };
-typedef struct _point Point;
 
-
-float calculate_dist(Point p1,Point p2){
-    return sqrt((p2.x-p1.x)*(p2.x-p1.x)+(p2.y-p1.y)*(p2.y-p1.y));
+float calculateDistance(struct _point p1, struct _point p2) {
+    return sqrt(pow((p2.x - p1.x), 2) + pow((p2.y - p1.y), 2));
 }
 
-int main(){
-    Point pnta,pntb;
-    printf("enter the value of x-coordinate of first point: ");
-    scanf("%d",&pnta.x);
+int main() {
+    struct _point point1, point2;
 
-    printf("enter the value of y-coordinate of first point: ");
-    scanf("%d",&pnta.y);
+    // Input coordinates for the first point
+    printf("Enter x and y coordinates for the first point:\n");
+    printf("x1 = ");
+    scanf("%f", &point1.x);
+    printf("y1 = ");
+    scanf("%f", &point1.y);
 
-    printf("enter the value of x-coordinate of second point: ");
-    scanf("%d",&pntb.x);
+    // Input coordinates for the second point
+    printf("\nEnter x and y coordinates for the second point:\n");
+    printf("x2 = ");
+    scanf("%f", &point2.x);
+    printf("y2 = ");
+    scanf("%f", &point2.y);
 
-    printf("enter the value of y-coordinate of second point: ");
-    scanf("%d",&pntb.y);
+    // Calculate and display the distance
+    float distance = calculateDistance(point1, point2);
+    printf("\nDistance between the two points: %.2f\n", distance);
 
-    float distance=calculate_dist(pnta,pntb);
-    printf("\nThe distance between (%d,%d) and (%d,%d)is %d",pnta.x,pnta.y,pntb.x,pntb.y,distance);
-    
     return 0;
 }
