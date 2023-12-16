@@ -10,23 +10,23 @@ void input_two_strings(char *string1,char *string2)
 
 int stringcompare(char *string1, char *string2)
 {
-    int i=0,flag=0;
+    int i=0;
     while(string1[i]!='\0' || string2[i]!='\0')
     {
         if (string1[i]>string2[i])
         {
-            flag=1;
+            return 1;
         }
         else if (string1[i]<string2[i])
         {
-            flag=2;
+            return 2;
         }
         else{
-            flag=0;
+            return 0;
         }
     i++;
     }
-    return flag;
+    return 0;
 }
 
 void output(char *string1, char *string2, int result)
