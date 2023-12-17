@@ -18,7 +18,7 @@ int input_n(){
 void input(int n, int a[n]){
     int i;
     printf("enter the values: ");
-    for(int i=0;i<=n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
 }
