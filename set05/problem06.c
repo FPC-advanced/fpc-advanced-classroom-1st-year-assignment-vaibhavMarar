@@ -37,7 +37,7 @@ return avg;
 }
 
 void output(float avg){
-    printf("The average of all the odd numbers is :%f\n",avg);
+    printf("The average of all the odd numbers is :%.2f\n",avg);
 }
 
 int main(){
