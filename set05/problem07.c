@@ -28,6 +28,7 @@ int nice_name(char *c){
             consonents++;
          }
     }
+    return (vowels >= 2 && consonents >= 2);
 }
 
 void output(int res){
