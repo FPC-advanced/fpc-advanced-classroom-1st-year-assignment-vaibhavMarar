@@ -11,7 +11,7 @@ void output(int res);
 */
 #include <stdio.h>
 #include<string.h>
-
+#include <ctype.h>
 void input(char *name){
     printf("enter the name of camel: ");
     scanf("%s",name);
@@ -21,7 +21,7 @@ int nice_name(char *c){
     int vowels =0;
     int consonents = 0;
     for(int i=0;i < strlen(c);i++){
-        char ch = c[i] + ('a' - 'A'); 
+        char ch = tolower(c[i]); 
          if(ch == 'a'|| ch == 'e' || ch =='i' ||ch =='o' ||ch =='u' ){
             vowels++;
          }else if(ch >= 'a' && ch <= 'z'){
