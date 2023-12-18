@@ -37,8 +37,6 @@ void input(int n, Camel c[n], float *truck_weight) {
         scanf("%f", &c[i].height);
         printf("Enter length: ");
         scanf("%f", &c[i].length);
-        printf("Enter weight: ");
-        scanf("%f", &c[i].weight);
     }
 }
 
